@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>To-Do List</title>
+</head>
+
+<body>
+    <div class="min-h-screen flex justify-centen item-center bg-gray-100">
+        <div class="bg-white p-6 rounded-x1 shadow-x1 w-full max-w-md">
+
+    <h1 class="text-2xl font-bold text-center mb-4">Simple To-Do App</h1>
+
+    <!-- Input box and button -->
+    <input id="taskInput"
+    type="text"
+    placeholder="Enter a task" 
+    class="w-full p-2 border rounded-lg mb-3 focus:outline-none focus:ring-2 focus:ring-blue-400">
+    <button id="addBtn"
+     class="w-full bg-blue-500 text-white py-2 rounded-lg hover:bg-blue-600 hover:scale-105 transition transform">Add Task</button>
+
+    <!-- Where tasks will appear -->
+    <ul id="taskList"
+    class="space-y-2 mt-4">
+    
+</ul>
+    </div>
+</div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
